@@ -1,6 +1,30 @@
 @import "compass/css3";
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,400,700);
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto&display=swap');
+
+
+/* icons fontawesome
+dumbbel: <i class="fas fa-dumbbell"></i>
+email: <i class="far fa-envelope"></i>
+bar-chart: <i class="fas fa-chart-bar"></i>
+infinity: <i class="fas fa-infinity"></i>
+design: <i class="fas fa-drafting-compass"></i>
+info: <i class="fas fa-info-circle"></i>
+DASH: <i class="fas fa-tachometer-alt"></i>
+FILE: <i class="far fa-file-alt"></i>
+
+add when hovering that class num icnreases so logo will be bigger
+
+*/
+
+#bannerimg {
+  width: 100%;
+  background-image: url(..assets/images/header_P1.png);
+  height: 405px;
+  background-color: purple;
+  background-position: center;
+}
 
 
 #logotext {
@@ -68,16 +92,19 @@
 }
 
 
-/* BOX DASHBOARD */
+/* BOX DASHBOARD
+add hover !!!!!!! 
+For mobile and tablet change wrapper width
+*/
 
 
 body {
-font-family:'Raleway';
-background-image: url(https://subtlepatterns.com/patterns/random_grey_variations.png);
+font-family:'Comfortaa';
+background: whitesmoke;
 }
 
 .wrapper {
-width:95%;
+width: 70%;
 }
 
 .header-container {
@@ -142,18 +169,22 @@ padding-top: 40px;
 
 .green {
 color: green;
+background: #43E0AA;
 }
 
 .orange {
 color: orange;
+background: #7515E2;
 }
 
 .purple {
 color: purple;
+background: #FE89DE;
 }
 
 .yellow {
 color: yellow;
+background:#FFAA00;
 }
 
 .blue {
